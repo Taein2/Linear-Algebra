@@ -12,6 +12,7 @@ def pprint(msg, A):
                 line += "| "
         print(line)
     print("")
+    
 #가우스 소거법 수행 함수
 def gauss(A):
     (n,m) = A.shape
