@@ -14,8 +14,8 @@ def orthProj(u, x): # 정사영 계산
     return projux
 
 A = np.array([[2], [-2], [4]])
-B = np.array([[-1], [1], [2]])
+B = np.array([[-1], [1], [1]])
 angle = angle2vectors(A, B)
-projAB = orthProj(B, A)
+projAB = orthProj(A, B)
 print("A와 B의 사잇각 : ", angle)
 print("A의 B 위로의 정사영 : \n", projAB)
